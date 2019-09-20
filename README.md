@@ -1,3 +1,7 @@
+# Pics Project
+
+This project is a course project from Udemy. The main topic is **Handling User Input with Forms and Events**.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
