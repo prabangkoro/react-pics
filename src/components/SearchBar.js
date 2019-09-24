@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 
 export default class SearchBar extends Component {
   state = {
-    term: ''
+    keyword: ''
   }
 
   onFormSubmit = event => {
     event.preventDefault()
 
-    this.props.onSubmit(this.state.term)
+    this.props.onSubmit(this.state.keyword)
   }
 
   render() {
@@ -21,8 +21,8 @@ export default class SearchBar extends Component {
           <div className="field">
             <label>Image Search</label>
             <input
-              value={this.state.term}
-              onChange={e => this.setState({ term: e.target.value })}
+              value={this.state.keyword}
+              onChange={e => this.setState({ keyword: e.target.value })}
               type="text"
             ></input>
           </div>
